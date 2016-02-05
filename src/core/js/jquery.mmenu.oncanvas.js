@@ -464,8 +464,8 @@
 									}
 
 									$navbar
-										.append( '<a class="' + _c.btn + ' ' + _c.prev + '" href="#' + id + '" data-target="#' + id + '" />' )
-										.append( $('<a class="' + _c.title + '"' + ( _url ? ' href="' + _url + '"' : '' ) + ' />').text( $a.text() ) )
+										.append( '<a target="_blank" class="' + _c.btn + ' ' + _c.prev + '" href="#' + id + '" data-target="#' + id + '" />' )
+										.append( $('<a target="_blank" class="' + _c.title + '"' + ( _url ? ' href="' + _url + '"' : '' ) + ' />').text( $a.text() ) )
 										.prependTo( $t );
 
 									if ( that.opts.navbar.add )
